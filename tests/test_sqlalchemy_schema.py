@@ -752,7 +752,6 @@ def test_dumping_pickle_field(models, teacher):
     }
 
 
-
 def test_dump_only_field_not_required(models):
     class StudentSchema(SQLAlchemySchema):
         class Meta:
